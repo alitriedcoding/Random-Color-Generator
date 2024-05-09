@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 20px;
+
+}
+h1{
+ text-align: center;
+}
+.container{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ justify-content: center;
+ align-items: center;
+}
+.colorContainer{
+    background-color: #6d9b35;
+    width: 240px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 30px;
+    box-shadow: 4px 4px 20px rgb(0,0, 0,0.3);
+}
